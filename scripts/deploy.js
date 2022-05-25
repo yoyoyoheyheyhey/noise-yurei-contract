@@ -3,7 +3,7 @@ async function main() {
 
   const noiseYurei = await NoiseYurei.deploy()
   await noiseYurei.deployed()
-  console.log("Contract deployed to address:", NoiseYurei.address)
+  console.log("Contract deployed to address:", noiseYurei.address)
 }
 
 main()
