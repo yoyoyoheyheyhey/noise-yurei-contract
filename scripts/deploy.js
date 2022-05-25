@@ -1,8 +1,8 @@
 async function main() {
   const NoiseYurei = await ethers.getContractFactory("NoiseYurei")
 
-  const NoiseYurei = await NoiseYurei.deploy()
-  await NoiseYurei.deployed()
+  const noiseYurei = await NoiseYurei.deploy()
+  await noiseYurei.deployed()
   console.log("Contract deployed to address:", NoiseYurei.address)
 }
 
