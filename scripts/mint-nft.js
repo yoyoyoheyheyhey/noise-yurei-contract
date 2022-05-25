@@ -5,7 +5,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/NoiseYurei.sol/NoiseYurei.json")
-const contractAddress = "TODO"
+const contractAddress = "0x9815d57b725D54A79CBBE9fbaaE68158BDf60735"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
