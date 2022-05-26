@@ -1,0 +1,17 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Heart", 
+      "value": "Noise"
+    },
+    {
+      "trait_type": "Existence", 
+      "value": "Nonexistent"
+    }
+  ],
+  "description": "Hence we're ghosts.",
+  "image": "ipfs://QmRqaAChDsQoTiejhYmZf6DyiKgMrWpaBDDH39h2TMKg87",
+  "external_url": "https://noise-yurei.vercel.app/",
+  "name": "#18"
+}
+
